@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="score_background">#20000000</color>
+    <color name="score_text">#FF333333</color>
+    
+    <!-- Score colors with beautiful gradients -->
+    <color name="score_excellent_start">#00b09b</color>
+    <color name="score_excellent_end">#96c93d</color>
+    
+    <color name="score_good_start">#96c93d</color>
+    <color name="score_good_end">#00b09b</color>
+    
+    <color name="score_fair_start">#ffd452</color>
+    <color name="score_fair_end">#ff9190</color>
+    
+    <color name="score_poor_start">#ff416c</color>
+    <color name="score_poor_end">#ff4b2b</color>
+    
+    <!-- App theme colors -->
+    <color name="primary">#00b09b</color>
+    <color name="primary_dark">#008374</color>
+    <color name="accent">#96c93d</color>
+    <color name="background">#F8F9FA</color>
+    <color name="card_shadow">#1A000000</color>
+    <color name="ripple_light">#1F000000</color>
+    <color name="surface_light">#FFFFFF</color>
+    <color name="primary_translucent">#2000b09b</color>
+    
+    <!-- Dark theme colors -->
+    <color name="accent_dark">@color/accent</color>
+    <color name="background_dark">#121212</color>
+    <color name="ripple_dark">#33FFFFFF</color>
+</resources>

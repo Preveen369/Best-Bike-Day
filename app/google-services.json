@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "604288542493",
+    "project_id": "best-bike-day-cf4b9",
+    "storage_bucket": "best-bike-day-cf4b9.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:604288542493:android:e1a8a8b33eab81a53b23f4",
+        "android_client_info": {
+          "package_name": "com.example.bestbikeday"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwvJd2dvNuY1iHvAhRAKV_NZwNeoWVzhQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/background"
+                app:contentInsetStartWithNavigation="0dp"
+                app:contentInsetStart="0dp">
+
+                <TextView
+                    android:id="@+id/titleText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="40px"
+                    android:text="Best Bike Day"
+                    android:textColor="@color/primary"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginBottom="8dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/searchEditText"
+                        android:layout_width="match_parent"
+                        android:layout_height="48dp"
+                        android:background="@drawable/search_background"
+                        android:hint="Enter city name"
+                        android:imeOptions="actionSearch"
+                        android:inputType="text"
+                        android:paddingHorizontal="16dp"
+                        android:paddingEnd="48dp"
+                        android:textColor="?android:attr/textColorPrimary"
+                        android:textColorHint="?android:attr/textColorSecondary"
+                        android:textCursorDrawable="@null"
+                        android:theme="@style/SearchEditTextTheme" />
+
+                    <ImageButton
+                        android:id="@+id/clearButton"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:layout_gravity="end|center_vertical"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:contentDescription="Clear search"
+                        android:padding="12dp"
+                        android:src="@drawable/ic_clear"
+                        android:visibility="gone" />
+
+                </FrameLayout>
+
+                <ImageButton
+                    android:id="@+id/searchButton"
+                    android:layout_width="48dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="8dp"
+                    android:background="@drawable/search_button_background_dark"
+                    android:contentDescription="Search"
+                    android:elevation="2dp"
+                    android:padding="12dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_search"
+                    android:stateListAnimator="@null" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/weatherRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:padding="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/appBarLayout" />
+
+    <!-- Placeholder for no weather data -->
+    <LinearLayout
+        android:id="@+id/placeholderLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/placeholderImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/onboarding_weather1" />
+
+        <TextView
+            android:id="@+id/placeholderText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Explore the bike weather"
+            android:textColor="@color/primary"
+            android:textSize="23dp"
+            android:gravity="center" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

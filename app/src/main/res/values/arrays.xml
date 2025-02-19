@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="temp_range_default">
+        <item>15</item>
+        <item>25</item>
+    </array>
+</resources> 
