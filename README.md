@@ -91,7 +91,7 @@ For any inquiries or suggestions, reach out at:
 
 ---
 
-🏅 **Show your support**
+## 🌟 **Show your support**
 If you like this project, please consider giving it a ⭐ on GitHub!
 
 🚴 **Ride Safe & Plan Ahead with Best Bike Day!**
