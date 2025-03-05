@@ -82,8 +82,6 @@ Pull requests are welcome! Feel free to **fork the repository** and submit impro
 
 ---
 
----
-
 ## 💎 Contact
 For any inquiries or suggestions, reach out at:
 - 💌 Email: spreveen123@gmail.com
