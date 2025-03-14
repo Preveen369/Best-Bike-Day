@@ -22,7 +22,6 @@ A **biker-friendly mobile app** providing **accurate 5-day weather forecasts** t
 
 ### 📢 Notification Scheduling
 - **Set alerts** for specific weather conditions to plan your rides better.
-- Get **real-time push notifications** using Firebase Cloud Messaging (FCM).
 
 ### 📍 Intuitive UI/UX
 - User-friendly **dashboard** with weather highlights.
