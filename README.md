@@ -20,9 +20,6 @@ A **biker-friendly mobile app** providing **accurate 5-day weather forecasts** t
 ### 🔒 Secure User Authentication
 - **Firebase Authentication** ensures secure sign-in with **email/password or Google login**.
 
-### 📢 Notification Scheduling
-- **Set alerts** for specific weather conditions to plan your rides better.
-
 ### 📍 Intuitive UI/UX
 - User-friendly **dashboard** with weather highlights.
 - **Minimalist and responsive design** for smooth navigation.
