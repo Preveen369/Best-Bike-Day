@@ -1,40 +1,73 @@
 # 🏍️ Best Bike Day App
 
-A **biker-friendly mobile app** providing **accurate 5-day weather forecasts** to help riders plan their trips safely and efficiently. Using **a weather API** for real-time updates and **Firebase for authentication & data storage**, this app ensures a seamless experience with personalized settings and intuitive UI.
+![Platform](https://img.shields.io/badge/Platform-Android-blue.svg)
+![Tech](https://img.shields.io/badge/Backend-Firebase-orange.svg)
+![API](https://img.shields.io/badge/API-OpenWeatherMap-lightblue.svg)
+![Language](https://img.shields.io/badge/Language-Java-yellow.svg)
+![UI](https://img.shields.io/badge/UI-XML-green.svg)
+![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
+
+**Best Bike Day** is a biker-friendly mobile application that delivers **accurate 5-day weather forecasts** to help riders plan safer and smarter journeys. Integrated with the **OpenWeatherMap API** and backed by **Firebase Authentication and Realtime Database**, the app provides personalized settings, real-time notifications, and a smooth, intuitive user experience. Built with a focus on usability, reliability, and modern UI/UX design, it showcases expertise in **Android development** and **API integration**.
 
 ---
 
 ## ✨ Features
 
 ### 🌦️ 5-Day Weather Forecast
-- Get detailed **daily weather conditions** with temperature, wind speed, and precipitation probability.
-- Real-time **weather API integration** for up-to-date forecasts.
+- Access detailed weather data including temperature, wind speed, and precipitation.
+- Real-time weather updates using OpenWeatherMap API.
 
 ### 🌙 Light/Dark Theme Toggle
-- Customize the app's appearance with **light and dark mode options** for a better user experience.
+- Switch between light and dark modes based on your preference.
+- Enhances visibility and reduces eye strain.
 
 ### ⚙️ User Preferences
-- Set **preferred temperature units** (°C/°F) and **wind speed units** (km/h, mph, m/s).
-- Save and manage **favorite riding locations** for quick access.
+- Choose preferred **temperature units** (°C/°F) and **wind speed formats** (km/h, mph, m/s).
+- Save favorite riding locations for quick forecast checks.
 
 ### 🔒 Secure User Authentication
-- **Firebase Authentication** ensures secure sign-in with **email/password or Google login**.
+- Sign up or log in via **Firebase Authentication**.
+- Supports both **Email/Password** and **Google Sign-In** methods.
 
 ### 📍 Intuitive UI/UX
-- User-friendly **dashboard** with weather highlights.
-- **Minimalist and responsive design** for smooth navigation.
+- Clean dashboard highlighting today’s and upcoming weather conditions.
+- Lightweight and responsive design for a seamless experience.
 
 ---
 
 ## 🚀 Tech Stack
-- **Android Studio** (Java & XML)
-- **Weather API** (for real-time forecasts)
-- **Firebase** (Authentication, Realtime Database, Cloud Messaging)
-- **Material UI Components** (for a polished UI)
+
+- **Frontend**: Java, XML  
+- **API**: [OpenWeatherMap](https://openweathermap.org/)  
+- **Backend**: Firebase Authentication, Firebase Realtime Database  
+- **Development Tools**: Android Studio  
+- **UI**: Material UI Components  
+
+---
+
+## 📂 Project Structure
+
+### 📱 Android App (`Best Bike Day App`)
+A modular Android project built with scalability and user-centric features in mind.
+
+#### Key Modules
+- `MainActivity.java` – Main app entry and weather screen.
+- `WeatherService/` – Logic for fetching and parsing weather API data.
+- `Preferences/` – User settings, theme handling, and Firebase persistence.
+- `Models/` – Data models for Weather, UserPreferences, etc.
+- `Adapters/` – For rendering list-based weather displays.
+- `Layouts/` – XML UI layout files for various screens and themes.
 
 ---
 
 ## 📲 Installation & Setup
+
+### Prerequisites
+- Android Studio installed
+- Firebase project set up
+- OpenWeatherMap API key
+
+### Steps
 1. **Clone the repository**
    ```sh
    git clone https://github.com/your-username/best-bike-day-app.git
