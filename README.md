@@ -47,16 +47,27 @@
 
 ## 📂 Project Structure
 
-### 📱 Android App (`Best Bike Day App`)
-A modular Android project built with scalability and user-centric features in mind.
+```
+BestBikeDay/
+└── app/
+    └── src/
+        └── main/
+            ├── java/
+            │   └── com/example/bestbikeday/
+            │       ├── MainActivity.java         # Entry point and main weather screen
+            │       ├── services/                 # WeatherService for API calls and parsing
+            │       ├── preferences/              # User settings, Firebase sync, theme handling
+            │       ├── adapters/                 # WeatherAdapter, ForecastAdapter, etc.
+            │       ├── models/                   # Weather.java, UserPreferences.java
+            │       ├── utils/                    # DateUtils, LocationHelper, ApiEndpoints
+            └── res/
+                ├── drawable/                     # Icons, background images
+                ├── layout/                       # activity_main.xml, item_weather.xml, etc.
+                ├── menu/                         # menu_main.xml for toolbar menus
+                ├── values/                       # strings.xml, styles.xml, colors.xml
+                └── values-night/                 # Dark mode specific resources
 
-#### Key Modules
-- `MainActivity.java` – Main app entry and weather screen.
-- `WeatherService/` – Logic for fetching and parsing weather API data.
-- `Preferences/` – User settings, theme handling, and Firebase persistence.
-- `Models/` – Data models for Weather, UserPreferences, etc.
-- `Adapters/` – For rendering list-based weather displays.
-- `Layouts/` – XML UI layout files for various screens and themes.
+```
 
 ---
 
