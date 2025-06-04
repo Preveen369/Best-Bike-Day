@@ -74,12 +74,12 @@ BestBikeDay/
 
 ## 📲 Installation & Setup
 
-### Prerequisites
+### 📋 Prerequisites
 - Android Studio installed
 - Firebase project set up
 - OpenWeatherMap API key
 
-### Steps
+### 🧑‍💻 Steps to Run
 1. **Clone the repository**
    ```sh
    git clone https://github.com/your-username/best-bike-day-app.git
