@@ -39,9 +39,10 @@
 
 - **Frontend**: Java, XML  
 - **API**: [OpenWeatherMap](https://openweathermap.org/)  
-- **Backend**: Firebase Authentication, Firebase Realtime Database  
+- **Backend**: Firebase (Authentication, Realtime Database)
 - **Development Tools**: Android Studio  
-- **UI**: Material UI Components  
+- **UI**: Material UI Components
+- **Target SDK**: 24+
 
 ---
 
