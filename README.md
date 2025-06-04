@@ -94,13 +94,6 @@ BestBikeDay/
 
 ---
 
-## 📌 Future Enhancements
-- **Voice Command Support** for hands-free weather updates.
-- **Route Recommendation** based on weather and traffic conditions.
-- **Offline Mode** for accessing cached forecasts.
-
----
-
 ## 🤝 Contributing
 Pull requests are welcome! Feel free to **fork the repository** and submit improvements.
 
